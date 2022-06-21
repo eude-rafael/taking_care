@@ -14,8 +14,6 @@ class LinkChecker extends Controller
     public function index(){
         $allLinks = Register_link::all();
 
-
-     
         foreach ($allLinks as &$valor) {
 
             // $curl = curl_init("https://www.google.com/");
