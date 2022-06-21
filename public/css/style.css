@@ -1,0 +1,46 @@
+body {
+    padding-top: 0px;
+}
+
+.brand-logo{
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+}
+
+a.white{
+    color: #fff;
+}
+
+.m-b-0{
+    margin-bottom: 0rem;
+}
+
+.border-top-silver-1-px{
+    border-top: #dbdbdb solid 1px;
+}
+
+.border{
+    border: #dbdbdb solid 1px;
+}
+ 
+
+ul.line_link_space > li > div{
+    margin: 4px 0;
+}
+
+ul.line_link_space > li > div:hover{
+    background-color: rgb(226, 226, 226);
+}
+
+.on{
+    display: block;
+}
+.off{
+    display: none;
+}
+
+
+.inputs_paddings{
+    padding: 4px 20px;
+}
