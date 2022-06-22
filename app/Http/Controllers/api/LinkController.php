@@ -9,6 +9,9 @@ use Illuminate\Support\Facades\Auth;
 
 use Illuminate\Support\Facades\Route;
 use App\Models\User;
+use App\Models\Test_record;
+
+
 
 class LinkController extends Controller
 {
@@ -33,6 +36,10 @@ class LinkController extends Controller
 
         $register_link->save();
         return ['error'=> false, 'message'=> 'salvo com sucesso!'];
+    }
+
+    public function list_link_links_actions(Request $request){
+        return  Test_record::whereIn('link_id', [$request->id_link])->get();
     }
 }
 

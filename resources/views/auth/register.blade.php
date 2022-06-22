@@ -1,7 +1,10 @@
 <x-guest-layout>
     <x-jet-authentication-card>
         <x-slot name="logo">
-            <x-jet-authentication-card-logo />
+            <div style="text-align: center">
+                <img style="width: 100px; height: auto; border-radius: 50%; margin: auto; margin-bottom: 10px;" class="brand-logo" src="/img/Eude.jpg" alt="">
+                <h3>Eude Rafael de Souza</h3>
+            </div>
         </x-slot>
 
         <x-jet-validation-errors class="mb-4" />
@@ -48,11 +51,11 @@
 
             <div class="flex items-center justify-end mt-4">
                 <a class="underline text-sm text-gray-600 hover:text-gray-900" href="{{ route('login') }}">
-                    {{ __('Already registered?') }}
+                    {{ __('Já tem um cadastro!?') }}
                 </a>
 
                 <x-jet-button class="ml-4">
-                    {{ __('Register') }}
+                    {{ __('CADASTRAR') }}
                 </x-jet-button>
             </div>
         </form>

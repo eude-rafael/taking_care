@@ -31,8 +31,13 @@
                 </ul>
             </nav>
 
-
-
+            <nav class="list_link_event_box py-4 px-4 sm:px-6 lg:px-4 xl:px-6 text-sm font-medium border-top-silver-1-px  off  js_action_list_link">
+                <h3 class="js_url_name"></h3>
+                <div class="close_js"><button class="border inputs_paddings rounded action_save_link_js">Close</button></div>
+                <div style="display: inline-block;" class="list_link_event pt-1  space-x-3 m-b-0 line_link_space">
+                     
+                </div>
+            </nav>
 
             <nav class="frame_input_action_save_link_js py-4 px-4 sm:px-6 lg:px-4 xl:px-6 text-sm font-medium border-top-silver-1-px    js_action_cad_link">
                 <input type="input" class="input_action_save_link_js rounded    sm:px-6 lg:px-4 xl:px-6 text-pink-500 border inputs_paddings" placeholder="http://www.link.com" />
@@ -45,9 +50,6 @@
                      
                 </ul>
             </nav>
-
-
-
 
             </div>
         </div>

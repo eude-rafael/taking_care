@@ -20,9 +20,3 @@ Route::middleware([
 });
  
 Route::get('/verificar_links', [LinkChecker::class, 'index']);
-
-
-// Route::get('/link_a_ser_testado', function(){
-//     return response('Hello World', 500)
-//                     ->header('Content-Type', 'text/plain');
-// });
